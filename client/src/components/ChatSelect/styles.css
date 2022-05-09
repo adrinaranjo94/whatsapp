@@ -1,0 +1,9 @@
+.chatSelect {
+    flex: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(6,57,81);
+    color: white;
+}

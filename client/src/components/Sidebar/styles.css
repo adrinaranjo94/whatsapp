@@ -1,0 +1,9 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: #57a574;
+}
+
+.sidebar > * {
+    border-bottom: 1px solid #b2b2b2;
+}

@@ -1,0 +1,44 @@
+.chatList__item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.chatList__item.currentChat {
+    background-color: #95f9ab;
+}
+
+.chatList__item.currentChat h5 {
+    color: black;
+}
+
+.chatList__icon {
+    width: 40px;
+    margin-right: 24px;
+}
+
+.chatList__name h5{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.chatList__name span {
+    font-size: 10px;
+}
+
+.chatList__name .online {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.chatList__name .offline {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}

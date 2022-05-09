@@ -1,0 +1,30 @@
+.incomingMessage {
+    display: flex;
+    align-items: center;
+    padding: 6px 4px;
+}
+
+.incomingMessage__image {
+    width: 40px;
+    margin-right: 12px;
+}
+
+.incomingMessage__content {
+    max-width: 50%;
+}
+.incomingMessage__content .incomingMessage__message {
+    font-size: 14px;
+    background-color: rgb(11, 106, 25);
+    border-radius: 8px;
+    padding: 4px 12px 4px 8px;
+}
+
+.incomingMessage__message p {
+    color: white; 
+}
+.incomingMessage__content .incomingMessage__date {
+color: aliceblue;
+font-size: 10px;
+width: 100%;
+text-align: end;
+}

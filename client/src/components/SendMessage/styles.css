@@ -1,0 +1,28 @@
+.inputChat {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.inputChat__input {
+    flex: 1;
+}
+
+.inputChat__input input {
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.inputChat__button {  
+   margin-left: 24px;
+}
+
+.inputChat__button button {
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 8px 12px;
+}

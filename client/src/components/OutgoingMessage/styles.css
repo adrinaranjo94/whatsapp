@@ -1,0 +1,32 @@
+.outgoingMessage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 6px 4px;
+}
+
+.outgoingMessage__image {
+    width: 40px;
+    margin-right: 12px;
+}
+
+.outgoingMessage__content {
+    max-width: 50%;
+}
+.outgoingMessage__content .outgoingMessage__message {
+    font-size: 14px;
+    background-color: rgb(16, 157, 37);
+    border-radius: 8px;
+    padding: 4px 8px 4px 12px;
+}
+
+.outgoingMessage__message p {
+    color: white; 
+    text-align: end;
+}
+.outgoingMessage__content .outgoingMessage__date {
+color: aliceblue;
+font-size: 10px;
+width: 100%;
+text-align: end;
+}

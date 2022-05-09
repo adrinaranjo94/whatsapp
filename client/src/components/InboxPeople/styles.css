@@ -1,0 +1,5 @@
+.inboxPeople {
+    flex: .2;
+    position: sticky;
+    top: 0;
+}

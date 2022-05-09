@@ -1,0 +1,20 @@
+.searchBox {
+    border-bottom: 1px solid #414141;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #64896e;
+}
+
+.searchBox__header {
+    font-size: 24px;
+    color: white;
+}
+
+.searchBox__bar .button {
+    border-radius: 20px;
+    background-color: #da5f5f;
+    padding: 8px 16px;
+    color: white;
+}
